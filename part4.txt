@@ -1,0 +1,5 @@
+The first thing that I would check for is duplicate rows. It seems to be very common for the data in databases to get very messy and result in duplicate, or near duplicate rows. I would firstly go and clean up the database to ensure that there aren't any messy or duplicate rows.
+
+Next I would look into the types of queries being ran. I would take a note of which ones take the longest and begin there. I would consider only selecting the necessary rows and not all of them (if applicable). You can also reduce the amount of returns but adding a limit on the results. For instance, if you want a list of all of the books you can set a limit for 1,000,000 and keep doing that until you have what you need.
+
+Lastly, I would begin looking at how I can modify the database. I would consider adding more specific tables, rather than broad ones. For instance, dividing the books table into different genre tables such as History, Religious, Comics, etc. This would still allow the same number of books to be stored in the database. However, now instead of a table with 50,000,000 rows in it, you would have numerous tables with a significantly less number of rows per table.
