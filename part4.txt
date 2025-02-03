@@ -7,4 +7,5 @@ For instance, if you want a list of all of the books you can set a limit for 1,0
 
 Lastly, I would begin looking at how I can modify the database. I would consider adding more specific tables, rather than broad ones.   
 For instance, dividing the books table into different genre tables such as History, Religious, Comics, etc.  
-This would still allow the same number of books to be stored in the database. However, now instead of a table with 50,000,000 rows in it, you would have numerous tables with a significantly less number of rows per table.
+This would still allow the same number of books to be stored in the database. However, now instead of a table with 50,000,000 rows in it,   
+you would have numerous tables with a significantly less number of rows per table.
